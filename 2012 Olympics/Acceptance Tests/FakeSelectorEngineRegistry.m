@@ -6,9 +6,15 @@
 //
 //
 
+#import "SelectorEngineRegistry.h"
+
 @implementation SelectorEngineRegistry
-+registerSelectorEngine:(id)registry WithName:(id)name{
++ (void) registerSelectorEngine:(id)registry WithName:(id)name{
     // dummy, do nothing;
+}
+
++ (NSArray *) selectViewsWithEngineNamed:(NSString *)engineName usingSelector:(NSString *)selector{
+    return nil;
 }
 
 @end

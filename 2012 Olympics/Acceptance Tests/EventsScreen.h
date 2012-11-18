@@ -10,7 +10,8 @@
 #import "ScreensHelper.h"
 
 @interface EventsScreen : NSObject
-+ (EventsScreen *) ensure;
++ (EventsScreen *) screen;
+
 - (BOOL) currentlyOnCorrectTab;
 - (void) visit;
 - (void) selectEvent:(NSString *)eventName;

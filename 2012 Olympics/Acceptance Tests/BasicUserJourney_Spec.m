@@ -8,13 +8,10 @@ describe(@"User Journey", ^{
     beforeAll(^{
         sleepFor(0.5);
     });
+
     
-    afterAll(^{
-        sleepFor(5);
-    });
-    
-    it(@"visit the event screen, scroll down, view some details about Dressage", ^{
-        EventsScreen *eventsScreen = [EventsScreen ensure];
+    it(@"visits the event screen and views details on a couple of events", ^{
+        EventsScreen *eventsScreen = [EventsScreen screen];
         [[theValue([eventsScreen currentlyOnCorrectTab]) should] beTrue];
         
         [eventsScreen selectEvent:@"beach volleyball"];
