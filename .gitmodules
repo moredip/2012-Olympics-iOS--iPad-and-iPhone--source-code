@@ -1,0 +1,3 @@
+[submodule "2012 Olympics/Frameworks/Kiwi"]
+	path = 2012 Olympics/Frameworks/Kiwi
+	url = https://github.com/allending/Kiwi.git

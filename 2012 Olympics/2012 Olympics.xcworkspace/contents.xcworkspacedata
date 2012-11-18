@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:2012 Olympics.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Frameworks/Kiwi/Kiwi.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Frank/lib/PublicAutomation/PublicAutomation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../Frank/lib/Shelley/Shelley.xcodeproj">
+   </FileRef>
+</Workspace>

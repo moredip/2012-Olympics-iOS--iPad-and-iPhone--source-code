@@ -15,6 +15,18 @@
 		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
 		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		C138770E16586AAB00EC4F05 /* EventsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C138770D16586AAB00EC4F05 /* EventsScreen.m */; };
+		C138771E16586FAC00EC4F05 /* libPublicAutomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C138771C16586FAC00EC4F05 /* libPublicAutomation.a */; };
+		C138771F16586FAC00EC4F05 /* libShelley.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C138771D16586FAC00EC4F05 /* libShelley.a */; };
+		C138772016586FE600EC4F05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		C13877231658707A00EC4F05 /* FakeSelectorEngineRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = C13877221658707A00EC4F05 /* FakeSelectorEngineRegistry.m */; };
+		C1F454A116585EC000B9EB96 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F454A016585EC000B9EB96 /* SenTestingKit.framework */; };
+		C1F454A216585EC000B9EB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		C1F454A316585EC000B9EB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		C1F454A916585EC000B9EB96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1F454A716585EC000B9EB96 /* InfoPlist.strings */; };
+		C1F454AC16585EC000B9EB96 /* Acceptance_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F454AB16585EC000B9EB96 /* Acceptance_Tests.m */; };
+		C1F454B41658601400B9EB96 /* BasicUserJourney_Spec.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F454B31658601400B9EB96 /* BasicUserJourney_Spec.m */; };
+		C1F454BB1658620800B9EB96 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F454BA1658620800B9EB96 /* libKiwi.a */; };
 		E71BC2091342794F00F7D995 /* HomeiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E71BC2071342794F00F7D995 /* HomeiPad.m */; };
 		E71BC20A1342794F00F7D995 /* HomeiPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71BC2081342794F00F7D995 /* HomeiPad.xib */; };
 		E71BC20E1342795A00F7D995 /* EventsiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E71BC20C1342795A00F7D995 /* EventsiPad.m */; };
@@ -102,6 +114,23 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* _012_Olympics_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _012_Olympics_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* _012_Olympics-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "_012_Olympics-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C138770C16586AAB00EC4F05 /* EventsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsScreen.h; sourceTree = "<group>"; };
+		C138770D16586AAB00EC4F05 /* EventsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsScreen.m; sourceTree = "<group>"; };
+		C138770F16586B6A00EC4F05 /* ScreensHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreensHelper.h; sourceTree = "<group>"; };
+		C138771C16586FAC00EC4F05 /* libPublicAutomation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPublicAutomation.a; path = "../../Frank/lib/PublicAutomation/build/Release-iphoneos/libPublicAutomation.a"; sourceTree = "<group>"; };
+		C138771D16586FAC00EC4F05 /* libShelley.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libShelley.a; path = "../../Frank/lib/Shelley/build/Release-iphoneos/libShelley.a"; sourceTree = "<group>"; };
+		C13877221658707A00EC4F05 /* FakeSelectorEngineRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeSelectorEngineRegistry.m; sourceTree = "<group>"; };
+		C13877711658C85700EC4F05 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		C1F4549F16585EC000B9EB96 /* Acceptance Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F454A016585EC000B9EB96 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1F454A616585EC000B9EB96 /* Acceptance Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acceptance Tests-Info.plist"; sourceTree = "<group>"; };
+		C1F454A816585EC000B9EB96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1F454AA16585EC000B9EB96 /* Acceptance_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Acceptance_Tests.h; sourceTree = "<group>"; };
+		C1F454AB16585EC000B9EB96 /* Acceptance_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acceptance_Tests.m; sourceTree = "<group>"; };
+		C1F454AD16585EC000B9EB96 /* Acceptance Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acceptance Tests-Prefix.pch"; sourceTree = "<group>"; };
+		C1F454B31658601400B9EB96 /* BasicUserJourney_Spec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicUserJourney_Spec.m; sourceTree = "<group>"; };
+		C1F454B51658604000B9EB96 /* AcceptanceSpecHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcceptanceSpecHelper.h; sourceTree = "<group>"; };
+		C1F454BA1658620800B9EB96 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKiwi.a; path = "Frameworks/Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
 		E71BC2061342794F00F7D995 /* HomeiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeiPad.h; sourceTree = "<group>"; };
 		E71BC2071342794F00F7D995 /* HomeiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeiPad.m; sourceTree = "<group>"; };
 		E71BC2081342794F00F7D995 /* HomeiPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeiPad.xib; sourceTree = "<group>"; };
@@ -199,6 +228,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1F4549B16585EC000B9EB96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C138772016586FE600EC4F05 /* CoreGraphics.framework in Frameworks */,
+				C138771E16586FAC00EC4F05 /* libPublicAutomation.a in Frameworks */,
+				C138771F16586FAC00EC4F05 /* libShelley.a in Frameworks */,
+				C1F454BB1658620800B9EB96 /* libKiwi.a in Frameworks */,
+				C1F454A116585EC000B9EB96 /* SenTestingKit.framework in Frameworks */,
+				C1F454A216585EC000B9EB96 /* UIKit.framework in Frameworks */,
+				C1F454A316585EC000B9EB96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -206,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* 2012 Olympics.app */,
+				C1F4549F16585EC000B9EB96 /* Acceptance Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,12 +295,16 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				C138771C16586FAC00EC4F05 /* libPublicAutomation.a */,
+				C138771D16586FAC00EC4F05 /* libShelley.a */,
+				C1F454BA1658620800B9EB96 /* libKiwi.a */,
 				E7D1CEEE1374734F00BD5B1B /* Icons */,
 				E7C821081343581E008F23F9 /* Pics */,
 				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
 				28EEBF621118D79A00187D67 /* Shared */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				C1F454A416585EC000B9EB96 /* Acceptance Tests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -278,8 +326,44 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				C1F454A016585EC000B9EB96 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C138770B16586A9200EC4F05 /* Screen Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C138770C16586AAB00EC4F05 /* EventsScreen.h */,
+				C138770D16586AAB00EC4F05 /* EventsScreen.m */,
+				C138770F16586B6A00EC4F05 /* ScreensHelper.h */,
+			);
+			name = "Screen Objects";
+			sourceTree = "<group>";
+		};
+		C1F454A416585EC000B9EB96 /* Acceptance Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C138770B16586A9200EC4F05 /* Screen Objects */,
+				C1F454AA16585EC000B9EB96 /* Acceptance_Tests.h */,
+				C1F454AB16585EC000B9EB96 /* Acceptance_Tests.m */,
+				C1F454A516585EC000B9EB96 /* Supporting Files */,
+				C1F454B31658601400B9EB96 /* BasicUserJourney_Spec.m */,
+				C1F454B51658604000B9EB96 /* AcceptanceSpecHelper.h */,
+				C13877221658707A00EC4F05 /* FakeSelectorEngineRegistry.m */,
+				C13877711658C85700EC4F05 /* utils.h */,
+			);
+			path = "Acceptance Tests";
+			sourceTree = "<group>";
+		};
+		C1F454A516585EC000B9EB96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F454A616585EC000B9EB96 /* Acceptance Tests-Info.plist */,
+				C1F454A716585EC000B9EB96 /* InfoPlist.strings */,
+				C1F454AD16585EC000B9EB96 /* Acceptance Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E71BC269134285A500F7D995 /* Home */ = {
@@ -471,6 +555,24 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* 2012 Olympics.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C1F4549E16585EC000B9EB96 /* Acceptance Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F454B116585EC000B9EB96 /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildPhases = (
+				C1F4549A16585EC000B9EB96 /* Sources */,
+				C1F4549B16585EC000B9EB96 /* Frameworks */,
+				C1F4549C16585EC000B9EB96 /* Resources */,
+				C1F4549D16585EC000B9EB96 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acceptance Tests";
+			productName = "Acceptance Tests";
+			productReference = C1F4549F16585EC000B9EB96 /* Acceptance Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -488,12 +590,14 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* 2012 Olympics */,
+				C1F4549E16585EC000B9EB96 /* Acceptance Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -566,7 +670,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1F4549C16585EC000B9EB96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F454A916585EC000B9EB96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1F4549D16585EC000B9EB96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
@@ -592,7 +720,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1F4549A16585EC000B9EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F454AC16585EC000B9EB96 /* Acceptance_Tests.m in Sources */,
+				C1F454B41658601400B9EB96 /* BasicUserJourney_Spec.m in Sources */,
+				C138770E16586AAB00EC4F05 /* EventsScreen.m in Sources */,
+				C13877231658707A00EC4F05 /* FakeSelectorEngineRegistry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1F454A716585EC000B9EB96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F454A816585EC000B9EB96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -662,6 +812,114 @@
 			};
 			name = Release;
 		};
+		C1F454AE16585EC000B9EB96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2012 Olympics.app/2012 Olympics";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frank/lib/PublicAutomation/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../../Frank/lib/Shelley/build/Release-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Frameworks/Kiwi\"/** /Users/pete/git/Frank/lib/Shelley/Shelley /Users/pete/git/Frank/lib/PublicAutomation/PublicAutomation";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C1F454AF16585EC000B9EB96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2012 Olympics.app/2012 Olympics";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frank/lib/PublicAutomation/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../../Frank/lib/Shelley/build/Release-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Frameworks/Kiwi\"/** /Users/pete/git/Frank/lib/Shelley/Shelley /Users/pete/git/Frank/lib/PublicAutomation/PublicAutomation";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		C1F454B016585EC000B9EB96 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/2012 Olympics.app/2012 Olympics";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acceptance Tests/Acceptance Tests-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Acceptance Tests/Acceptance Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frank/lib/PublicAutomation/build/Release-iphoneos\"",
+					"\"$(SRCROOT)/../../Frank/lib/Shelley/build/Release-iphoneos\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SOURCE_ROOT)/Frameworks/Kiwi\"/** /Users/pete/git/Frank/lib/Shelley/Shelley /Users/pete/git/Frank/lib/PublicAutomation/PublicAutomation";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
 		E7B115E8137813FF002D8E33 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -711,6 +969,16 @@
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
 				E7B115E8137813FF002D8E33 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F454B116585EC000B9EB96 /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F454AE16585EC000B9EB96 /* Debug */,
+				C1F454AF16585EC000B9EB96 /* Release */,
+				C1F454B016585EC000B9EB96 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
